@@ -392,7 +392,7 @@ class PicasaAlbum(object):
         self.files = {}  # name -> PicasaFile
         self.online_album = None
         self.image_suffix = re.compile(
-            r'\.(jpeg|jpg|mpg|mpeg|mov|png|tif|tiff)$', re.IGNORECASE)
+            r'\.(jpeg|jpg|mpg|mpeg|mov|png|tif|tiff|cr2)$', re.IGNORECASE)
         
 
     def add_iphoto_images(self, images, options):
